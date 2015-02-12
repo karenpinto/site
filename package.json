@@ -1,0 +1,13 @@
+{
+  "name": "karen",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.4.5"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
