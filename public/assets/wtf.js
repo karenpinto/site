@@ -99,7 +99,7 @@
         particlesAlpha=0;
         
         $(window).resize(function(){
-          $("canvas").width("65%").height("100%");
+          $("canvas").width("100%").height("100%");
         });
         //Attraction force center
         $(document).mousemove(function(e){
