@@ -1,0 +1,435 @@
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: #fff;
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a, button {
+	outline: none;
+}
+
+a {
+	color: #566473;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #34495e;
+}
+
+section {
+	padding: 1em;
+	text-align: center;
+}
+
+p.ref {
+	text-align: center;
+	padding: 2em 1em;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	z-index: 200;
+	width: 100%;
+	background:  #01293f;
+} 
+
+.logo {
+  background: url("../img/logo.svg") no-repeat center;
+  display: block;
+  width: 150px;
+  height: 80px;
+  margin: 0 auto;
+  cursor: pointer;
+  left: 0;
+  right: 0;
+  background-size: contain;
+}
+
+
+/* Phrase */
+
+.phrase {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  display: block;
+  top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.phrase.footers {
+  width: 340px;
+	
+  top: 110px;
+	
+  margin-bottom: -25px;
+}
+
+canvas {
+  top: 41px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+/* ILUS PAGE */
+.ilus-container {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  overflow: hidden;
+	position: absolute;
+  width: 391px;
+  height: 296px;
+	
+  top: 135px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.step-1 .ilus-container {
+  background: url("../img/experience.gif") no-repeat center;
+  background-size: cover;
+  opacity: 0.2;
+}
+
+.ilus-container.ilus-container--home {
+	width: 90%;
+	height: 85%;
+	display: block;
+	background: url("../img/pic-home.svg") no-repeat center;
+	background-size: contain;
+	position: absolute;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 60px;
+	left: 0;
+	right: 0;
+}
+
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.large-header {
+	background: #01293f;
+	background-size: cover;
+	
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.beta .main-title, {
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+
+/*sections*/
+
+.step {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #01293f;
+  position: relative;
+  color: #fff;
+  display: table;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.supercontainter > p {
+  width: 70%;
+  margin: 0 auto;
+  position: absolute;
+  top: 160px;
+  left: 0;
+  right: 0;
+	font-weight: 100;
+	
+  font-size: 18px;
+}
+
+.grid-4 {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 20px;
+	padding: 0px;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+}
+
+.grid-4:after {
+  content: " ";
+  position: absolute;
+  border: 1px solid #bcf7eb;
+  width: 0px;
+  height: 170px;
+  top: 297px;
+  left: 150px;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  opacity: 0.2;
+}
+
+.grid-4.last:after {
+  display: none
+}
+
+.expereince-steps.first {
+  margin-top: -120px;
+}
+.expereince-steps {
+	width: 100%;
+
+}
+
+.step-1 {
+	background: #306e9e;
+}
+
+.step-2 {
+	background: #2e9dbc;
+}
+
+.step-3 {
+	background: url("../img/bg-footer.png") #39c1ca;
+	background-size: cover;
+	
+}
+
+.step-4 {
+	background: #84decd;
+}
+
+.step-5 {
+	background: #c6f2db;
+}
+
+.supercontainter {
+  width: 0;
+  max-width: 1800px;
+  height: 95%;
+  margin: 0 auto;
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0;
+}
+
+.footer {
+  width: 100%;
+  background: url("../img/footer-dec.png");
+  background-size: cover;
+  bottom: 0;
+  height: 95px;
+  position: absolute;
+}
+
+.subscribe {
+  margin-top: 145px;
+  display: block;
+  z-index: 200;
+  position: absolute;
+  left: 14%;
+  right: 0;
+  width: 300px;
+}
+
+.subscribe input {
+  background: transparent;
+  border: 2px solid #84decd;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50em;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  color: #fff;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #fff;
+}
+
+
+.subscribe a {
+  background: #84decd;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50em;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  color: #021f2d;
+	cursor: pointer;
+  display: inline-block;
+  width: 65px;
+	-webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.subscribe a:hover {
+	color: #021f2d;
+	background: #e7ffab;
+	
+}
+
+@media only screen and (min-width: 40.5em) { 
+	
+	.grid-4 {
+  width: 40%;
+	}
+	
+	.expereince-steps.first {
+  margin-top: -130px;
+	}
+
+}  
+
+
+@media only screen and (min-width: 64em) {
+	header {
+  background: transparent;
+	}
+	
+	.logo {
+  background: url("../img/logo-desktop.svg") no-repeat center;
+  width: 220px;
+  height: 210px;
+  margin-left: 30px;
+	}
+	
+	.grid-4 {
+  width: 20%;
+  height: auto;
+  float: left;
+  margin: 20px;
+  padding: 0px;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+	}
+	
+	.grid-4:after {
+  width: 40%;
+	height: 2px;
+  top: 45%;
+  left: 245px;
+	}
+	
+	.expereince-steps.first {
+  margin-top: -120px;
+	}
+	
+	.phrase {
+  width: 450px;
+	}
+  
+	.step-1 .ilus-container {
+  display: block;
+	}
+	
+	.step-1 .ilus-container {
+		opacity: 100;
+		
+	}
+	
+	.supercontainter {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	
+
+
+	.supercontainter > p {
+		top: 440px;
+		font-size: 22px;
+	}
+	
+	.phrase.footers {
+  width: 600px;
+  top: 200px;
+  margin-bottom: 10px;
+	}
+	
+	.subscribe {
+  margin-top: 145px;
+  display: block;
+  z-index: 200;
+  position: absolute;
+  left: 310px;
+  right: 0;
+  width: 300px;
+	}
+}  
+
+
+

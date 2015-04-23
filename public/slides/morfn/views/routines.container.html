@@ -1,0 +1,172 @@
+<section class="the-container">
+    <header class="sticky-header"></header>
+    
+    <div class="main-container main-container--hasnav main-container--timeline active">
+      <h2 class="sweet-blue">Creating Routine...</h2>
+      <section class="content routine creating-routine">
+        <span class="input routine-name input--hoshi">
+					<input class="routine-name input__field input__field--hoshi" type="text" id="input-4" placeholder="Routine Name"/>
+					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+					</label>
+				</span>
+        <ul>
+          
+          <li>
+            <a ng-click="showModal('boost')">
+              <i class="icon-{{boost.selected}} {{boost.selected}}"></i>
+              <span>{{ boost.keywords?boost.keywords:'Pick a boost'}}</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+            <a class="at" ng-click="showModal('social')">
+              <i class="icon-{{social.channel}} {{social.channel}}"></i>
+              <span>{{ social.channel? social.channel:'At'}}</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+          </li>
+          
+          <li class="{{ boost.selected&&social.channel ?'':'in-active'}}" >
+            <a>
+              <span>Create an action</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+            <a class="at">
+              <span>At</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+          </li>
+        
+        </ul>
+        
+        <ul class="edit-routine in-active">
+          <li>
+            <a class="ok sweet-blue">ok</a>
+          </li>
+        </ul> 
+      </section>
+    </div>
+    
+    <div class="main-container main-container--hasnav main-container--timeline active">
+      <h2 class="sweet-blue">Creating Routine</h2>
+      <section class="content routine created-routines">
+        <ul>
+          
+          <li class="in-active">
+            <a>
+              <span>Picked</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+            <a class="at">
+              <span>At</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+          </li>
+          
+          <li class="in-active">
+            <a>
+              <span>Created</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+            <a class="at">
+              <span>At</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+          </li>
+        
+        </ul>
+        
+        <ul class="edit-routine">
+          <li>
+             <a>
+              <i class="icon-remove sweet-blue"></i>
+            </a>
+          </li>  
+          <li>
+             <a>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="content routine created-routines">
+        <ul>
+          
+          <li class="in-active">
+            <a>
+              <span>Picked</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+            <a class="at">
+              <span>At</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+          </li>
+          
+          <li class="in-active">
+            <a>
+              <span>Created</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+            <a class="at">
+              <span>At</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+          </li>
+        
+        </ul>
+        
+        <ul class="edit-routine">
+          <li>
+             <a>
+              <i class="icon-remove sweet-blue"></i>
+            </a>
+          </li>  
+          <li>
+             <a>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="content routine created-routines">
+        <ul>
+          
+          <li class="in-active">
+            <a>
+              <span>Picked</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+            <a class="at">
+              <span>At</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+          </li>
+          
+          <li class="in-active">
+            <a>
+              <span>Created</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+            <a class="at">
+              <span>At</span>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+          </li>
+        
+        </ul>
+        
+        <ul class="edit-routine">
+          <li>
+             <a>
+              <i class="icon-remove sweet-blue"></i>
+            </a>
+          </li>  
+          <li>
+             <a>
+              <i class="icon-edit sweet-blue"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>  
+
+</section>

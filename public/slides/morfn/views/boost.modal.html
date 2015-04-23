@@ -1,0 +1,56 @@
+  <section class="modal">
+    <a class="close-modal" ng-click='hideModal()'>&times;</a>
+    <div class="blocks">
+      <div class="blocks- blocks-4 baby-blue">
+        <div class="block-header">
+          <i class="icon-text text"></i>
+          <h2>Text Post</h2>
+          <input name="radio1" type="checkbox" />
+        </div>
+        <div class="block-content">
+          <p>description here</p>
+          <input class="keywords-space" type="text" placeholder="Type keywords, #hashtags here..." ng-model='modal.keywords'/>
+          <a><i class="icon-keywords keywords "></i></a>
+          <a ng-click='setBoost("text")' class="ok text">save</a>
+        </div>
+      </div>
+      <div class="blocks- blocks-4 baby-blue">
+        <div class="block-header">
+          <i class="icon-image image"></i>
+          <h2>Image Post</h2>
+          <input name="radio1" type="checkbox" />
+        </div>
+        <div class="block-content">
+          <p>description here</p>
+          <input class="keywords-space" type="text" placeholder="Type keywords, #hashtags here..." ng-model='modal.keywords'/>
+          <a><i class="icon-keywords keywords "></i></a>
+          <a ng-click='setBoost("image")' class="ok image">ok</a>
+        </div>
+      </div>
+      <div class="blocks- blocks-4 baby-blue">
+        <div class="block-header">
+          <i class="icon-sound sound"></i> 
+          <h2>Sound Post</h2>
+          <input name="radio1" type="checkbox" />
+        </div>
+        <div class="block-content">
+          <p>description here</p>
+          <input class="keywords-space" type="text" placeholder="Type keywords, #hashtags here..." ng-model='modal.keywords'/>
+          <a><i class="icon-keywords keywords "></i></a>
+          <a ng-click='setBoost("sound")' class="ok sound">ok</a>
+        </div>
+      </div>
+      <div class="blocks- blocks-4 baby-blue">
+        <div class="block-header">
+          <i class="icon-time time"></i>
+          <input name="radio1" type="checkbox" />
+        </div>
+        <div class="block-content">
+          <p>description here</p>
+          <input class="keywords-space" type="text" placeholder="Type keywords, #hashtags here..." ng-model='modal.keywords'/>
+          <a><i class="icon-keywords keywords "></i></a>
+          <a ng-click='setBoost("time")' class="ok">ok</a>
+        </div>
+      </div>
+    </div>  
+  </section>
