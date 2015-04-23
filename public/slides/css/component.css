@@ -361,9 +361,9 @@ canvas {
 	
 	.logo {
   background: url("../img/logo-desktop.svg") no-repeat center;
-  width: 220px;
-  height: 210px;
-  margin-left: 30px;
+  width: 130px;
+  height: 180px;
+  margin-left: 0;
 	}
 	
 	.grid-4 {
